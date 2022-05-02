@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "[Unreal Toolbox] Save Data",
+	"Description": "A system used to easily save/load game data",
+	"Category": "Unreal Toolbox",
+	"CreatedBy": "Henry Jooste",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/hfjooste/UT-SaveData",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UTSaveData",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"IOS",
+				"Android",
+				"HTML5",
+				"TVOS",
+				"Mac",
+				"Linux",
+				"LinuxAArch64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UTLogger",
+			"Enabled": true
+		}
+	]
+}
